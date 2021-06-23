@@ -118,7 +118,7 @@ const research = [
         authors : "",
         conferences : "",
         researchYr : "",
-        citebox : "popup8",
+        citebox : "popup9",
         image : "https://miro.medium.com/max/1280/1*h01T_cugn22R2zbKw5a8hA.gif",
         citation: {
             vancouver: "A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other."
@@ -131,7 +131,7 @@ const research = [
         authors : "",
         conferences : "",
         researchYr : "",
-        citebox : "popup8",
+        citebox : "popup10",
         image : "https://www.simplilearn.com/ice9/free_resources_article_thumb/Network_framework.gif",
         citation: {
             vancouver: "Recurrent Neural Network(RNN) are a type of Neural Network where the output from previous step are fed as input to the current step"
