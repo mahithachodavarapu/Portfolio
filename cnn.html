@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <title>Mahitha Chodavarapu | Learnings</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="application-name" content="Mahitha Chodavarapu | Home" />
+    <meta name="apple-mobile-web-app-title" content="Mahitha Chodavarapu | Home" />
+    
+    <!--For Dark/Light mode Toggle-->
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/css/home.css"> 
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png"> 
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script defer src="assets\js\dynamicTitle.js"></script>
+</head>
+
+<body>
+<!-- loader -->
+<br>
+<br>
+      
+<section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h1 id="b9f2" class="fm dk fn ba cz fo fp fq fr fs ft fu fv fw fx fy fz ga gb gc gd ge gf gg gh gi gj">Convolutional Neural Network (CNN)</h1>
+<div class="n p">
+<div class="ap aq ar as at fl av w">
+<p id="9f5b" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">CNN image classifications takes an input image, process it and c<span id="rmm">l</span>assify it under certain categories (Eg., Dog, Cat, Tiger, Lion). Computers sees an input image as array of pixels and it depends on the image resolution. Based on the image resolution, it will see h x w x d( h = Height, w = Width, d = Dimension ). Eg., An image of 6 x 6 x 3 array of matrix of RGB (3 refers to RGB values) and an image of 4 x 4 x 1 array of matrix of grayscale image.</p>
+<p id="aa4a" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">Technically, deep learning CNN models to train and test, each input image will pass it through a series of convolution layers with filters (Kernals), Pooling, fully connected layers (FC) and apply Softmax function to classify an object with probabilistic values between 0 and 1. The below figure is a complete flow of CNN to process an input image and classifies the objects based on values.</p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">&nbsp;</p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><img src="https://miro.medium.com/max/2510/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg" alt="" /></p>
+<p id="f11c" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><strong class="he cz">Convolution Layer</strong></p>
+<p id="cf70" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">Convolution is the first layer to extract features from an input image. Convolution preserves the relationship between pixels by learning image features using small squares of input data. It is a mathematical operation that takes two inputs such as image matrix and a filter or kernel.</p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">&nbsp;</p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">&nbsp;<img src="https://miro.medium.com/max/576/1*kYSsNpy0b3fIonQya66VSQ.png" alt="" /></p>
+<p id="96a7" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">&nbsp;</p>
+<p id="f86d" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><strong class="he cz">Strides</strong></p>
+<p id="f5c8" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><mark class="ud ue me">Stride is the number of pixels shifts over the input matrix.</mark>&nbsp;When the stride is 1 then we move the filters to 1 pixel at a time. When the stride is 2 then we move the filters to 2 pixels at a time and so on. The below figure shows convolution would work with a stride of 2.</p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><img src="https://miro.medium.com/max/869/1*nGHLq1hx0gt02OK4l8WmRg.png" alt="" /></p>
+<p id="ea2a" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><strong class="he cz">Padding</strong></p>
+<p id="7cdf" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">Sometimes filter does not fit perfectly fit the input image. We have two options:</p>
+<ul class="">
+<li id="0350" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv jy jz ka gj" data-selectable-paragraph="">Pad the picture with zeros (zero-padding) so that it fits</li>
+<li id="0bbf" class="hc hd fn he b hf kb hg hh hi kc hj hk hl kd hm hn ho ke hp hq hr kf hs ht hv jy jz ka gj" data-selectable-paragraph="">Drop the part of the image where the filter did not fit. This is called valid padding which keeps only valid part of the image</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><img src="http://xrds.acm.org/blog/wp-content/uploads/2016/06/Figure_3.png" alt="Convolutional Neural Networks (CNNs): An Illustrated Explanation - XRDSXRDS" /></p>
+<p id="9c07" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><strong class="he cz">Non Linearity (ReLU)</strong></p>
+<p id="474b" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">ReLU stands for Rectified Linear Unit for a non-linear operation. The output is&nbsp;<strong class="he cz"><em class="kg">&fnof;(x) = max(0,x).</em></strong></p>
+<p id="94d4" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">Why ReLU is important : ReLU&rsquo;s purpose is to introduce non-linearity in our ConvNet. Since, the real world data would want our ConvNet to learn would be non-negative linear values.</p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><img src="https://miro.medium.com/max/561/1*gcvuKm3nUePXwUOLXfLIMQ.png" alt="" /></p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">There are other non linear functions such as tanh or sigmoid that can also be used instead of ReLU. Most of the data scientists use ReLU since performance wise ReLU is better than the other two.</p>
+<p id="e7a0" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><strong class="he cz">Pooling Layer</strong></p>
+<p id="eb15" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">Pooling layers section would reduce the number of parameters when the images are too large. Spatial pooling also called subsampling or downsampling which reduces the dimensionality of each map but retains important information. Spatial pooling can be of different types:</p>
+<ul class="">
+<li id="7173" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv jy jz ka gj" data-selectable-paragraph="">Max Pooling</li>
+<li id="a0c8" class="hc hd fn he b hf kb hg hh hi kc hj hk hl kd hm hn ho ke hp hq hr kf hs ht hv jy jz ka gj" data-selectable-paragraph="">Average Pooling</li>
+<li id="7cb0" class="hc hd fn he b hf kb hg hh hi kc hj hk hl kd hm hn ho ke hp hq hr kf hs ht hv jy jz ka gj" data-selectable-paragraph="">Sum Pooling</li>
+</ul>
+<p id="43f6" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">Max pooling takes the largest element from the rectified feature map. Taking the largest element could also take the average pooling. Sum of all elements in the feature map call as sum pooling.</p>
+<p class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><img src="https://miro.medium.com/max/753/1*SmiydxM5lbTjoKWYPiuzWQ.png" alt="" /></p>
+<p id="ed5f" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph=""><strong class="he cz">Fully Connected Layer</strong></p>
+<p id="c8c1" class="hc hd fn he b hf hw hg hh hi hx hj hk hl hy hm hn ho hz hp hq hr ia hs ht hv dm gj" data-selectable-paragraph="">The layer we call as FC layer, we flattened our matrix into vector and feed it into a fully connected layer like a neural network.</p>
+</div>
+</div>
+          </div>
+ </div>
+    </section><!-- End About Section -->
+
+    <!-- Dynamic footer section -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167979537-2"></script>
+    <!-- Fetching our Google Tag Manager -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+    <script src="assets/js/particle.js"></script>
+
+</body>
+
+</html>

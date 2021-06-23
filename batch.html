@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <title>Mahitha Chodavarapu | Learnings</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="application-name" content="Mahitha Chodavarapu | Home" />
+    <meta name="apple-mobile-web-app-title" content="Mahitha Chodavarapu | Home" />
+    
+    <!--For Dark/Light mode Toggle-->
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/css/home.css"> 
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png"> 
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script defer src="assets\js\dynamicTitle.js"></script>
+</head>
+
+<body>
+<!-- loader -->
+<br>
+<br>
+      
+<section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h1 id="title" style="text-align: justify;">Batch Normalization in Deep Neural Networks</h1>
+<p style="text-align: justify;"><strong>Normalization</strong>&nbsp;is a procedure to change the value of the numeric variable in the dataset to a typical scale, without misshaping contrasts in the range of value. In<strong>&nbsp;deep learning</strong>, preparing a&nbsp;<strong>deep neural network&nbsp;</strong>with many layers as they can be delicate to the underlying initial random weights and design of the learning algorithm. One potential purpose behind this trouble is the distribution of the inputs to layers somewhere down in the network may change after each mini-batch when the weights are refreshed. This can make the learning algorithm always pursue a moving target. This adjustment in the distribution of inputs to layers in the network has alluded to the specialized name&nbsp;<strong>internal covariate shift</strong>.&nbsp;<strong>Batch normalization</strong>&nbsp;is a technique for training very deep neural networks that normalizes the contributions to a layer for every mini-batch. This has the impact of settling the learning process and drastically decreasing the number of training epochs required to train deep neural networks. One part of this challenge is that the model is refreshed layer-by-layer in reverse from the output to the input utilizing an estimate of error that accept the weights in the layers preceding the current layer are fixed.&nbsp;<strong>Batch normalization</strong>&nbsp;gives a rich method of parametrizing practically any deep neural network. The reparameterization fundamentally decreases the issue of planning updates across numerous layers. It does this scaling the output of the layer, explicitly by normalizing the activations of each input variable per mini-batch, for example, the enactments of a node from the last layer. Review that normalization alludes to rescaling data to have a&nbsp;<strong>mean</strong>&nbsp;of zero and a&nbsp;<strong>standard deviation</strong>&nbsp;of one.</p>
+<p style="text-align: justify;">&nbsp;</p>
+<div style="text-align: justify;"><img src="https://www.kdnuggets.com/wp-content/uploads/singla-normalisation-0.png" alt="Image" width="70%" /></div>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">By brightening the inputs to each layer, we would make a stride towards accomplishing the fixed distributions of inputs that would evacuate the ill impacts of the internal covariate shift.</p>
+<p style="text-align: justify;">Normalizing the activations of the earlier layer implies that presumptions the ensuing layer makes about the spread and distribution of inputs during the weight update won&rsquo;t change, in any event not significantly. This has the impact of stabilizing and accelerating the preparation training procedure of deep neural network.</p>
+<p style="text-align: justify;">For little smaller mini-batches that don&rsquo;t contain an agent distribution of models from the training dataset, the distinctions in the normalized inputs among training and inference (utilizing the model subsequent to training) can bring about perceptible contrasts in execution performance. This can be tended to with a change of the technique called&nbsp;<strong>Batch Renormalization</strong>&nbsp;that makes the appraisals of the variable mean and standard deviation increasingly stable across mini-batches.</p>
+<p style="text-align: justify;">This normalization of inputs might be applied to the input variable for the first hidden layer or to the activation from a hidden layer for more profound layers.</p>
+<p style="text-align: justify;">It tends to be utilized with most deep network types, for example,&nbsp;<strong>Convolutional Neural Networks</strong>&nbsp;and&nbsp;<strong>Recurrent Neural Networks</strong>.</p>
+<p style="text-align: justify;">It might be utilized on the inputs to the layer previously or after the activation function in the past layer.</p>
+<p style="text-align: justify;">It might be increasingly proper after the activation function if for s-formed capacities like the&nbsp;<strong>hyperbolic tangent</strong>&nbsp;and&nbsp;<strong>logistic function</strong>.</p>
+<p style="text-align: justify;">It might be fit prior to the activation function for activations that may rise&nbsp;<strong>in non-Gaussian scatterings</strong>&nbsp;like the&nbsp;<strong>rectified linear activation function (ReLU)</strong>, the front line default for most deep neural network types.</p>
+<p style="text-align: justify;">It offers some regularization impact, lessening&nbsp;<strong>generalization error</strong>, maybe done requiring the utilization of&nbsp;<strong>dropout&nbsp;</strong>for regularization.</p>
+<p style="text-align: justify;">The batch normalized network the mean and variances remain moderately steady all through the network. For an unnormalized network, they seem to develop exponentially with profundity.</p>
+<div style="text-align: justify;"><img src="https://www.kdnuggets.com/wp-content/uploads/singla-normalisation-1.png" alt="Image" width="100%" /></div>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">A warmth guide of the yield angles in the last grouping layer after reinstatement. The columns compare to a class and the rows to pictures in the mini-batch. For an unnormalized network, it is apparent that the network reliably predicts one explicit class (extremely right columns), independent of the input. As an outcome, the gradient is exceptionally correlated. For a batch standardized system, the reliance upon the information is a lot bigger.</p>
+<div style="text-align: justify;"><img src="https://www.kdnuggets.com/wp-content/uploads/singla-normalisation-2.png" alt="Image" width="100%" /></div>
+<p style="text-align: justify;">&nbsp;</p>
+<p style="text-align: justify;">&nbsp;<br /><strong>Benefits</strong></p>
+<p style="text-align: justify;">The model is less delicate to&nbsp;<strong>hyperparameter tuning</strong>. That is, though bigger&nbsp;<strong>learning rates</strong>&nbsp;prompted non-valuable models already, bigger LRs are satisfactory at this point</p>
+<p style="text-align: justify;">Shrinks internal covariant shift</p>
+<p style="text-align: justify;">Diminishes the reliance of&nbsp;<strong>gradients</strong>&nbsp;on the scale of the parameters or their underlying values</p>
+<p style="text-align: justify;"><strong>Weight initialization</strong>&nbsp;is a smidgen less significant at this point</p>
+<p style="text-align: justify;"><strong>Dropout</strong>&nbsp;can be evacuated for regularization</p>
+<p style="text-align: justify;">This carries us to the furthest limit of this article where we have found out about Batch normalization and the advantages of utilizing it.</p>
+          
+          </div>
+ </div>
+    </section><!-- End About Section -->
+
+    <!-- Dynamic footer section -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167979537-2"></script>
+    <!-- Fetching our Google Tag Manager -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+    <script src="assets/js/particle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <title>Mahitha Chodavarapu | Learnings</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="application-name" content="Mahitha Chodavarapu | Home" />
+    <meta name="apple-mobile-web-app-title" content="Mahitha Chodavarapu | Home" />
+    
+    <!--For Dark/Light mode Toggle-->
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="assets/css/preloader.css">
+    <link rel="stylesheet" href="assets/css/home.css"> 
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png"> 
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script defer src="assets\js\dynamicTitle.js"></script>
+</head>
+
+<body>
+<!-- loader -->
+<br>
+<br>
+      
+<section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2 id="1a99" class="ij ik fn ba il im in io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg gj"  data-selectable-paragraph="">What is Dropout in Neural Networks?</h2>
+<p style="text-align: justify;">The concept of Neural Networks is inspired by the neurons in the human brain and scientists wanted a machine to replicate the same process. This craved a path to one of the most important topics in Artificial Intelligence. A Neural Network (NN) is based on a collection of connected units or nodes called artificial neurons, which loosely model the neurons in a biological brain. Since such a network is created artificially in machines, we refer to that as Artificial Neural Networks (ANN).</p>
+<p style="text-align: justify;"><strong>Problem:</strong></p>
+<p style="text-align: justify;">When a fully-connected layer has a large number of neurons, co-adaption is more likely to happen. Co-adaptation refers to when multiple neurons in a layer extract the same, or very similar, hidden features from the input data. This can happen when the connection weights for two different neurons are nearly identical.</p>
+<center><br /><img class="alignnone size-medium wp-image-1725027" src="https://media.geeksforgeeks.org/wp-content/uploads/20200502110455/4685869376077824.png" alt="An example of co-adaptation between neurons A and B. Due to identical weights, A and B will pass the same value into C." /></center>
+<p style="text-align: justify;">This poses two different problems to our model:</p>
+<ul style="text-align: justify;">
+<li>Wastage of machine&rsquo;s resources when computing the same output.</li>
+<li>If many neurons are extracting the same features, it adds more significance to those features for our model. This leads to overfitting if the duplicate extracted features are specific to only the training set.</li>
+</ul>
+<p style="text-align: justify;"><strong>Solution to the problem:</strong></p>
+<p style="text-align: justify;">As the title suggests, we use dropout while training the NN to minimize co-adaption.<br />In dropout, we randomly shut down some fraction of a layer&rsquo;s neurons at each training step by zeroing out the neuron values. The fraction of neurons to be zeroed out is known as the dropout rate,&nbsp;<img class="ql-img-inline-formula quicklatex-auto-format" title="Rendered by QuickLaTeX.com" src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-a62f19e209060b7e70eb72918a1ed234_l3.svg" alt="  r_{d} " width="23" height="16" />. The remaining neurons have their values multiplied by&nbsp;<img class="ql-img-inline-formula quicklatex-auto-format" title="Rendered by QuickLaTeX.com" src="https://www.geeksforgeeks.org/wp-content/ql-cache/quicklatex.com-1f1216db13457128e1aad5319a511793_l3.svg" alt=" \frac{1}{1 - r_d} " width="46" height="36" />&nbsp;so that the overall sum of the neuron values remains the same.</p>
+<p style="text-align: justify;"><img class="aligncenter size-full wp-image-1725032" src="https://media.geeksforgeeks.org/wp-content/uploads/20200502110654/6183453068361728.png" alt="" /></p>
+<p style="text-align: justify;"><img class="aligncenter size-full wp-image-1725033" src="https://media.geeksforgeeks.org/wp-content/uploads/20200502110727/5971145083846656.png" alt="" /></p>
+<p style="text-align: justify;">The two images represent dropout applied to a layer of 6 units, shown at multiple training steps. The dropout rate is 1/3, and the remaining 4 neurons at each training step have their value scaled by x1.5. Thereby, we are choosing a random sample of neurons rather than training the whole network at once. This ensures that the co-adaption is solved and they learn the hidden features better.</p>
+          </div>
+ </div>
+    </section><!-- End About Section -->
+
+    <!-- Dynamic footer section -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167979537-2"></script>
+    <!-- Fetching our Google Tag Manager -->
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js'></script>
+    <script src="assets/js/particle.js"></script>
+
+</body>
+
+</html>

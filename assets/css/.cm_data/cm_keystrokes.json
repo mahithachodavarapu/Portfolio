@@ -1,0 +1,244 @@
+{
+    "style1.css": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:04:42",
+            "keyStrokeInfo": "#05bbbb",
+            "position": "378,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:05:04",
+            "keyStrokeInfo": "#06b4b4",
+            "position": "378,15"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:05:28",
+            "keyStrokeInfo": "#06b4b4",
+            "position": "414,11"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:05:33",
+            "keyStrokeInfo": "",
+            "position": "414,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:06:02",
+            "keyStrokeInfo": "#06b4b4",
+            "position": "497,22"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:06:05",
+            "keyStrokeInfo": "",
+            "position": "497,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:06:19",
+            "keyStrokeInfo": "#06b4b4",
+            "position": "514,26"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:06:35",
+            "keyStrokeInfo": "#666c72",
+            "position": "524,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:06:42",
+            "keyStrokeInfo": "#06b4b4",
+            "position": "524,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:07:01",
+            "keyStrokeInfo": "#045e5e",
+            "position": "524,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:07:11",
+            "keyStrokeInfo": "#06b4b4",
+            "position": "524,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:07:21",
+            "keyStrokeInfo": "#069ab4",
+            "position": "524,10"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:07:36",
+            "keyStrokeInfo": "069ab4",
+            "position": "514,27"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:08:01",
+            "keyStrokeInfo": "069ab4",
+            "position": "558,22"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:08:19",
+            "keyStrokeInfo": "069ab4",
+            "position": "497,22"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:10:29",
+            "keyStrokeInfo": "#068bb4",
+            "position": "497,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jun 17 2021 00:10:39",
+            "keyStrokeInfo": "#068bb4",
+            "position": "514,26"
+        }
+    ],
+    "home.css": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:27",
+            "keyStrokeInfo": "#79868b",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:28",
+            "keyStrokeInfo": "#596469",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:29",
+            "keyStrokeInfo": "#b9c7ce",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:30",
+            "keyStrokeInfo": "#d3dce0",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:30",
+            "keyStrokeInfo": "#bbc8ce",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:32",
+            "keyStrokeInfo": "#d4e2e9",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:33",
+            "keyStrokeInfo": "#b2bec4",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:39",
+            "keyStrokeInfo": "#d4e2e9",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:42",
+            "keyStrokeInfo": "#b2bec4",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:46",
+            "keyStrokeInfo": "#d4e2e9",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:47",
+            "keyStrokeInfo": "#bbc8ce",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:47",
+            "keyStrokeInfo": "#d3dce0",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:48",
+            "keyStrokeInfo": "#b9c7ce",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:48",
+            "keyStrokeInfo": "#596469",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:49",
+            "keyStrokeInfo": "#79868b",
+            "position": "34,24"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:56:49",
+            "keyStrokeInfo": "#0e76a8",
+            "position": "34,24"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jun 21 2021 19:58:58",
+            "keyStrokeInfo": "rgb(252, 252, 252)",
+            "position": "42,16"
+        }
+    ]
+}
