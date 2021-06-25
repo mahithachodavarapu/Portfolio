@@ -17,19 +17,7 @@ const research = [
         
         link: "numpypytorch.html",
     },
-    {
-        title : "Introduction to Multilayer perceptron",
-        authors : "",
-        conferences : "",
-        researchYr : "",
-        citebox : "popup2",
-        image : "https://camo.githubusercontent.com/df750334fd0d75e7ec5194e6bbe8a87ef8dcf7ffd863696b9f2ff5eb383a60c6/68747470733a2f2f737973747765616b312e766f2e6c6c6e77642e6e65742f636f6e74656e742f77702f737973747765616b626c6f67736e65772f75706c6f6164735f6e65772f323031382f30332f68696464656e2d6c61796572732d696e2d6e6574776f726b2e676966",
-        citation: {
-            vancouver: "Multi-Layer perceptron defines the most complex architecture of artificial neural networks. It is substantially formed from multiple layers of the perceptron. "
-        },
-        
-        link: "historymlp.html",
-    },
+    
     
 
     {
