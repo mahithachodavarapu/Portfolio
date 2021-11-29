@@ -14,5 +14,28 @@
             "keyStrokeInfo": "",
             "position": "301,13"
         }
+    ],
+    "education.html": [
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 03:24:22",
+            "keyStrokeInfo": "",
+            "position": "8,3"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 03:24:28",
+            "keyStrokeInfo": "<meta name=\"keywords\"\n    content=\"free portfolio template,portfolio template, portfolio website template, open source, open sourcing, contributing to open source\" />\n  <meta name=\"description\"\n    content=\"This project serves free and beautiful portfolio template for everyone. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world.\" />\n  ",
+            "position": "8,3"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Mon Jul 19 2021 03:24:32",
+            "keyStrokeInfo": "",
+            "position": "8,3"
+        }
     ]
 }
