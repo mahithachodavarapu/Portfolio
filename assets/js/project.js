@@ -4,16 +4,7 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
-  {
-    title: "Sprint",
-    cardImage: "https://agilemindtools.com/wp-content/uploads/2019/10/What-is-sprint-planning-Agilemindtools.jpg",
-    description: "Click on the following button to view more details",
-    tagimg: "https://upload.wikimedia.org/wikipedia/commons/9/99/Neural_network_example.svg",
-    Previewlink: "sprint.html",
-    Githublink: "sprint.html",
-
-    
-  },
+  
   {
     title: "MyTorch",
     cardImage: "https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/Comp-1.gif",
